@@ -1,2 +1,6 @@
-# tutorialScala
-Um tutorial em Scala versão pt br hebert richards que talvez eu apague
+
+Tutorial de Scala para iniciantes na linguagem
+
+ROADMAP
+INTRODUÇÃO
+Ainda em produção
