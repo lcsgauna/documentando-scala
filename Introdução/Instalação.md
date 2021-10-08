@@ -1,8 +1,8 @@
 # Instalação
 
-## 1. Verificar JDK na máquina
+### **Importante**: Antes de instalar `Scala`, é necessário ter instalado `Java JDK 8` ou `Java JDK 11` na máquina
 
-Antes de instalar o `Scala` é necessário ter instalado `Java JDK 8` ou `Java JDK 11` instalado na máquina
+## 1. Verificar JDK na máquina
 
 Para verficar, abra o terminal e digite:
 `java -version`, deve ser mostrado a versão do Java informado(1.8 ou 11), caso não apareça ou tenha uma versão diferente recomendo que baixe uma destas duas versões:
@@ -11,7 +11,7 @@ Para verficar, abra o terminal e digite:
 
 * [Oracle JDK 11](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
 
-## 2. Modos de instalar Scala
+## 2. Maneiras de instalar Scala
 
 * Instalando o plugin no IntelliJ
 
@@ -30,3 +30,17 @@ Para verficar, abra o terminal e digite:
     ````sbt
     libraryDependencies += "org.scala-lang.modules" %% "scala-parser-combinators" % "1.1.2"
     ````
+
+* **Microsoft**: Instalador Scala
+
+    [Instalador Scala 2.13](https://downloads.lightbend.com/scala/2.13.6/scala-2.13.6.msi)
+
+* Utilizando SDKMAN!
+
+    O SDKMAN! é um kit de gerenciamento de software que pode ser instalado no Linux, Mac e Windows, para instalar em sua máquina o SDKMAN!, [veja este passo a passo](https://sdkman.io/install).
+
+    Após a instalação do gerenciador, utilize o comando `sdk install scala` ou caso preferir uma versão especifica `sdk install scala 2.13.6` para instalar Scala via sdkman.
+
+* Utilizando Scala Online
+
+    Utilizando o [Scatie](https://scastie.scala-lang.org/), você tem a possibilidade de executar arquivos diretamente e com a possibilidade de configurar as principais bibliotecas do Scala pelo Browser.
