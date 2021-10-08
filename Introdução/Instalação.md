@@ -21,14 +21,12 @@ Para verficar, abra o terminal e digite:
 
     O sbt é o build tool do Scala (não tem nada a ver com Silvio Santos), recomendo que instale este build tool mesmo não sendo sua escolha de instalação do Scala,pois, muitos frameworks Scala o utilizam para instalar suas dependencias.
 
-    [Windows](https://www.scala-sbt.org/1.x/docs/Installing-sbt-on-Windows.html), 
-    [Linux](https://www.scala-sbt.org/1.x/docs/Installing-sbt-on-Linux.html), 
+    [Windows](https://www.scala-sbt.org/1.x/docs/Installing-sbt-on-Windows.html),
+    [Linux](https://www.scala-sbt.org/1.x/docs/Installing-sbt-on-Linux.html),
     [Mac](https://www.scala-sbt.org/1.x/docs/Installing-sbt-on-Mac.html)
 
     Após a instalação crie um projeto e adicione o arquivo `build.sbt`, este arquivo será o local aonde as bibliotecas e funcionalidades adicionadas no projeto serão reconhecidas pelo sbt e assim instaladas. Como estamos instalando Scala, iremos abrir este arquivo e adicionar:
-    ````
+
+    ````sbt
     libraryDependencies += "org.scala-lang.modules" %% "scala-parser-combinators" % "1.1.2"
     ````
-
-
-     

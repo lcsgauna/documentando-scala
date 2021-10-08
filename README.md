@@ -1,5 +1,4 @@
-
-Tutorial de Scala para iniciantes na linguagem
+# Tutorial de Scala para iniciantes na linguagem
 
 ROADMAP
 INTRODUÇÃO
