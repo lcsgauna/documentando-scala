@@ -19,7 +19,7 @@ Para verficar, abra o terminal e digite:
 
 * Instalando via SBT
 
-    O sbt é o build tool do Scala (não tem nada a ver com Silvio Santos), recomendo que instale este build tool mesmo não sendo sua escolha de instalação do Scala,pois, muitos frameworks Scala o utilizam para instalar suas dependencias.
+    O sbt é o build tool do Scala (~~não tem nada a ver com Silvio Santos~~), recomendo que instale este build tool mesmo não sendo sua escolha de instalação do Scala,pois, muitos frameworks Scala o utilizam para instalar suas dependencias.
 
     [Windows](https://www.scala-sbt.org/1.x/docs/Installing-sbt-on-Windows.html),
     [Linux](https://www.scala-sbt.org/1.x/docs/Installing-sbt-on-Linux.html),
