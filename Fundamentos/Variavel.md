@@ -1,30 +1,4 @@
-# Básico
-
-## Olá Mundo
-
-É uma tradição começar programação com um exemplo de **"Olá Mundo"** e para não decepcionar, crie um arquivo `HelloWorld.scala`
-
-```scala
-object HelloWorld extends App{
-    println("Hello World")
-}
-```
-
-Após salvar este arquivo, abra o terminal e digite na pasta do aonde está salvo este arquivo e execute com `scala HelloWorld.scala`
-
-## REPL
-
-O Scala REPL("Read-Evaluate-Print Loop") é um interpretador de linha de comando que você utiliza como uma área de "playground" para teste de código Scala
-
-Para iniciar uma sessão REPL, digite `scala` no terminal do seu sistema operacional e você verá algo assim:
-
-```bash
-$scala
-Welcome to Scala 2.13.6 (Java HotSpot(TM) 64-Bit Server VM, Java 1.8.0_301).
-Type in expressions for evaluation. Or try :help.
-```
-
-## Variável
+# Variável
 
 Scala possui dois modos de variáveis:
 
