@@ -79,4 +79,4 @@ object HelloWorld extends App{
 }
 ```
 
-Após salvar este arquivo, abra o terminal e digite na pasta do aonde está salvo este arquivo e execute com `scala HelloWorld.scala`, você também pode utilizar o REPL para executar este exemplo
+Após salvar este arquivo, abra o terminal e digite na pasta aonde está salvo este arquivo e execute com `scala HelloWorld.scala`, você também pode utilizar o REPL para executar este exemplo.
