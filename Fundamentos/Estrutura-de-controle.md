@@ -1,6 +1,6 @@
 # Estrutura de Controle
-Estruturas de controle é uma parte importante de qualquer linguagem de programação,
-em Scala não é diferente, em sua estrutura de controle possui o básico que você espera encontrar em uma linguagem de programação como:
+Estruturas de controle é uma parte importante para qualquer linguagem de programação,
+em Scala não é diferente, sua estrutura de controle possui o básico que pode ser encontrado em uma linguagem de programação como:
 
 * if  / then / else
 * for loops
@@ -60,7 +60,6 @@ val menorValor = if(a < b)a else b
 ```
 Sobre o exemplo acima, diferentes de outras linguagens, Scala não precisa de um operador ternário ele utiliza a programação orientada a expressões.
 
-
 If/else quando não retorna um resultado
 
 ```Scala
@@ -72,11 +71,10 @@ Quando uma linha de código em Scala não retorna um resultado igual ao exemplo 
 side effects quando `a` for igual a `b`, a segunda linha é utilizada como side effects
 para escrever um String utilizando o STDOUT.
 
-
 ## For
 
 Um loop em `for` é utilizado quando uma tarefa precisa ser realizada repetidas vezes
-até que sua condicional boleana retorne `false`
+até que sua condicional boleana retorne `false`. Em sua utilização na grande maioria ela é utilizada para iterar elementos dentro de uma `collection`(List,Set,Range,Map, etc).
 
 Sintaxe básica de um loop `for` em Scala:
 
@@ -87,8 +85,14 @@ for(receptor <- gerador){
 ```
 
 Quando: 
+
 . *receptor*  é a variável que recebe valores enviadas pelo *gerador* a cada iteração
 . *gerador* em casos normais são *Range*, *Collection* ou *Map* que enviam novos valores para o *receptor* a cada iteração.
 
+```Scala
+val nums = Seq(1,2,3)
+for( n <- nums) println(n)
+```
+No exemplo acima, foi criado uma variável `nums` utilizando a collection `Seq`, no loop `for` a variavel `nums` foi  utilizada como um *gerador* de valores para ser iterado a cada loop na variavel `n` que se torna o *receptor* destes valores. A cada interação é mostrado na tela os valores contidos em `num` até que a condicional retorne `false`, neste caso, até não ter mais valores em `num`.
 
 
