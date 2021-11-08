@@ -40,7 +40,7 @@ if(a==b){
 
 ````
 
-Uma estrutura `if\else-if\else` básica em Scala:
+Uma estrutura `if/else-if/else` básica em Scala:
 
 ````Scala
 
@@ -54,14 +54,14 @@ if(teste1){
 
 ````
 
-If/else quando retorna um resultado
+Uma estrutura If/else quando retorna um resultado:
 
 ```Scala
 val menorValor = if(a < b)a else b
 ```
 Sobre o exemplo acima, diferentes de outras linguagens, Scala não precisa de um operador ternário ele utiliza a programação orientada a expressões.
 
-If/else quando não retorna um resultado
+Uma estrutura If/else quando não retorna um resultado:
 
 ```Scala
 if(a == b) facaAlgo()
@@ -74,10 +74,10 @@ para escrever um String utilizando o STDOUT.
 
 ## For
 
-Um loop em `for` é utilizado quando uma tarefa precisa ser realizada repetidas vezes
+Um loop em `for` é utilizado quando uma tarefa precisa ser realizada inúmeras vezes
 até que sua condicional boleana retorne `false`. Em sua utilização na grande maioria ela é utilizada para iterar elementos dentro de uma `collection`(List,Set,Range,Map, etc).
 
-Sintaxe básica de um loop `for` em Scala:
+Estrutura básica de um loop `for` em Scala:
 
 ```Scala
 for(receptor <- gerador){
