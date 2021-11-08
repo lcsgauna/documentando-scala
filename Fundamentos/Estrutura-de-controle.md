@@ -59,7 +59,7 @@ Uma estrutura If/else quando retorna um resultado:
 ```Scala
 val menorValor = if(a < b)a else b
 ```
-Sobre o exemplo acima, diferentes de outras linguagens, Scala não precisa de um operador ternário ele utiliza a programação orientada a expressões.
+Sobre o exemplo acima, diferente de outras linguagens, Scala não precisa de um operador ternário ele utiliza a programação orientada a expressões.
 
 Uma estrutura If/else quando não retorna um resultado:
 
