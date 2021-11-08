@@ -86,9 +86,9 @@ for(receptor <- gerador){
 
 Quando: 
 
-. *receptor*  é a variável que recebe valores enviadas pelo *gerador* a cada iteração
+* *receptor*  é a variável que recebe valores enviadas pelo *gerador* a cada iteração
 
-. *gerador* em casos normais são *Range*, *Collection* ou *Map* que enviam novos valores para o *receptor* a cada iteração.
+* *gerador* em casos normais são *Range*, *Collection* ou *Map* que enviam novos valores para o *receptor* a cada iteração.
 
 ```Scala
 val nums = Seq(1,2,3)
