@@ -1,6 +1,7 @@
 # Estrutura de Controle
-Estruturas de controle é uma parte importante para qualquer linguagem de programação,
-em Scala não é diferente, sua estrutura de controle possui o básico que pode ser encontrado em uma linguagem de programação como:
+
+Estruturas de controle é um conceito importante para qualquer linguagem de programação,
+em Scala não é diferente, sua estrutura de controle possui o básico que pode ser encontrado na maioria das linguagens de programação como:
 
 * if  / then / else
 * for loops
@@ -67,8 +68,8 @@ if(a == b) facaAlgo()
 println("Olá")
 ```
 
-Quando uma linha de código em Scala não retorna um resultado igual ao exemplo anterior ele é chamado de `side effects`. No exemplo o método `facaAlgo()` é um 
-side effects quando `a` for igual a `b`, a segunda linha é utilizada como side effects
+Quando uma linha de código em Scala não retornar um resultado igual ao exemplo anterior ele é chamado de `side effects`. No exemplo o método `facaAlgo()` é um 
+*side effects* quando `a` for igual a `b`, a segunda linha é utilizada como side effects
 para escrever um String utilizando o STDOUT.
 
 ## For
