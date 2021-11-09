@@ -11,4 +11,5 @@
  Capítulos | Iniciado | Revisado | Finalizado |
 :----------|:---------|:---------|:-----------|
 | Introdução | ✔ | ✖ |  ✖ |
+| Variável | ✔ | ✖ |  ✖ |
 | Estruturas de Controle | ✔ | ✖ |  ✖ |
