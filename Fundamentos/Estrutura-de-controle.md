@@ -12,7 +12,7 @@ E também possui estruturas de controle com formato exclusivos como:
 * match expressions
 * for expressions
 
-## If / Else 
+## If / Else
 
 Uma estrutura de `if` básica em Scala:
 
@@ -59,6 +59,7 @@ Uma estrutura If/else quando retorna um resultado:
 ```Scala
 val menorValor = if(a < b)a else b
 ```
+
 Sobre o exemplo acima, diferente de outras linguagens, Scala não precisa de um operador ternário ele utiliza a programação orientada a expressões.
 
 Uma estrutura If/else quando não retorna um resultado:
@@ -68,9 +69,7 @@ if(a == b) facaAlgo()
 println("Olá")
 ```
 
-Quando uma linha de código em Scala não retornar um resultado igual ao exemplo anterior ele é chamado de `side effects`. No exemplo o método `facaAlgo()` é um 
-*side effects* quando `a` for igual a `b`, a segunda linha é utilizada como side effects
-para escrever um String utilizando o STDOUT.
+Quando uma linha de código em Scala não retornar um resultado igual ao exemplo anterior ele é chamado de `side effects`. No exemplo o método `facaAlgo()` é um *side effects* quando `a` for igual a `b`, a segunda linha é utilizada como side effects para escrever um String utilizando o STDOUT.
 
 ## For
 
@@ -85,7 +84,7 @@ for(receptor <- gerador){
 }
 ```
 
-Quando: 
+Quando:
 
 * *receptor*  é a variável que recebe valores enviadas pelo *gerador* a cada iteração
 
@@ -95,6 +94,5 @@ Quando:
 val nums = Seq(1,2,3)
 for( n <- nums) println(n)
 ```
+
 No exemplo acima, foi criado uma variável `nums` utilizando a collection `Seq`, no loop `for` a variavel `nums` foi  utilizada como um *gerador* de valores para ser iterado a cada loop na variavel `n` que se torna o *receptor* destes valores. A cada interação é mostrado na tela os valores contidos em `num` até que a condicional retorne `false`, neste caso, até não ter mais valores em `num`.
-
-
