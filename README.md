@@ -13,3 +13,4 @@
 | Introdução | ✔ | ✖ |  ✖ |
 | Variável | ✔ | ✖ |  ✖ |
 | Estruturas de Controle | ✔ | ✖ |  ✖ |
+| Classes | ✔ | ✖ |  ✖ |
