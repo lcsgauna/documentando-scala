@@ -1,6 +1,6 @@
 
 <p align="center">
-    <img width="200" src="./img/scala-logo.png" alt="Logo Scala">
+    <img width="2000" src="./img/banner-scala.png" alt="Logo Scala">
 </p>
 
 # O que é Scala?
