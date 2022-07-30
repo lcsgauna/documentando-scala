@@ -1,4 +1,4 @@
-# Introdução
+# Primeiros Passos
 
 ## Instalação
 
@@ -17,11 +17,11 @@ Para verficar, abra o terminal e digite:
 
 * Instalando o plugin no IntelliJ
 
-    Na aba plugin busque por `Scala` no marketplace e clique em instalar, caso não saiba [como baixar plugin IntelliJ](https://www.jetbrains.com/help/idea/managing-plugins.html)
+    Na aba plugin busque por `Scala` no marketplace e clique em instalar, caso não saiba, clique aqui [como baixar plugin IntelliJ](https://www.jetbrains.com/help/idea/managing-plugins.html)
 
 * Instalando via SBT
 
-    O sbt é o build tool do Scala (~~não tem nada a ver com Silvio Santos~~), recomendo que instale este build tool mesmo não sendo sua escolha de instalação do Scala,pois, muitos frameworks Scala o utilizam para instalar suas dependencias.
+    O sbt é o build tool do Scala (~~não tem nada a ver com Silvio Santos~~), recomendo que instale este build tool mesmo não sendo sua escolha de instalação do Scala, pois, muitos frameworks Scala o utilizam para instalar suas dependências.
 
     [Windows](https://www.scala-sbt.org/1.x/docs/Installing-sbt-on-Windows.html),
     [Linux](https://www.scala-sbt.org/1.x/docs/Installing-sbt-on-Linux.html),
@@ -45,7 +45,7 @@ Para verficar, abra o terminal e digite:
 
 * Utilizando Scala Online
 
-    Utilizando o [Scatie](https://scastie.scala-lang.org/), você tem a possibilidade de executar arquivos diretamente e com a possibilidade de configurar as principais bibliotecas do Scala pelo Browser.
+    Utilizando o [Scatie](https://scastie.scala-lang.org/), você tem a possibilidade de executar arquivos diretamente e com a possibilidade de configurar as principais bibliotecas do Scala via browser.
 
 ### **REPL**
 

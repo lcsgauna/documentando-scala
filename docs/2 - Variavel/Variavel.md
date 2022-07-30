@@ -38,22 +38,16 @@ val y : String = Uma frase aleatória em Scala para olhar abaixo que o tipo é u
 
 Tipos de dados e seus valores possíveis :
 
-**Boolean** = `True` ou `False`
-
-**Byte** = Números inteiros de `-128` a `127` de `8 bits`
-
-**Short** = Números inteiros de `32.768` a `32.767` de `16 bits`
-
-**Int** = Números inteiros de `-2.147.483.648` a `2.147.483.647` de `32 bits`
-
-**Long** = Números inteiros de `-9223372036854775808` to `9223372036854775807` de `64 bits`
-
-**Float** = Números flutuantes de `1.40129846432481707e-45` a `3.40282346638528860e + 38` de `32 bits`
-
-**Double** = Números flutuantes de `4.94065645841246544e-324d` a `1.79769313486231570e + 308` de `64 bits`
-
-**Char** = Caractere `Unicode` de `0` a `65.535` de `16 bits`
-
-**String** = Cadeia de caracteres
+| Tipos de Dados | Valores |
+:----------|:---------|
+| Boolean | `True` ou `False`|
+| Byte |  Números inteiros de `-128` a `127` de `8 bits`   |
+| Short | Números inteiros de `32.768` a `32.767` de `16 bits` |
+| Int | Números inteiros de `-2.147.483.648` a `2.147.483.647` de `32 bits` |
+| Long |Números inteiros de `-9223372036854775808` to `9223372036854775807` de `64 bits`|
+| Float | Números flutuantes de `1.40129846432481707e-45` a `3.40282346638528860e + 38` de `32 bits`|
+| Double | Números flutuantes de `4.94065645841246544e-324d` a `1.79769313486231570e + 308` de `64 bits`|
+| Char | Caractere `Unicode` de `0` a `65.535` de `16 bits`|
+| String | Cadeia de caracteres|
 
 Scala também conta com mais dois tipos de dados para números o `BigInt` e `BigDecimal` e ambos oferecem suporte aos operadores para usar com tipos numéricos.
