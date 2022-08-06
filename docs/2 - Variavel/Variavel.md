@@ -5,7 +5,7 @@ Scala possui dois modos de variáveis:
 * `val` é uma variável imutável
 * `var` é uma variável mutável e só deve ser usada quando há um motivo específico para usá-la
 
-Exemplos:
+Exemplos:  
 
 ```scala
 val x = 1 //imutável
